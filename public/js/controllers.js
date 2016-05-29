@@ -1,10 +1,17 @@
 'use strict';
 
-var app = angular.module('myFaceApp');
+var app = angular.module('valApp');
 
 
-app.controller('profilesController', function($scope) {
-    console.log('profileCtrl!');
+app.controller('homeController', function($scope) {
+    console.log('homeCtrl!');
 
 
 });
+
+app.controller('workController', function($scope) {
+    console.log('homeCtrl!');
+
+
+});
+

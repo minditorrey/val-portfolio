@@ -8,12 +8,11 @@ var bodyParser = require('body-parser');
 var http = require('http');
 var path = require('path');
 var mongoose = require('mongoose');
-var jwt = require('jsonwebtoken');
 var cookieParser = require('cookie-parser');
  
 require('dotenv').config();
 
-const MONGOURL = process.env.MONGODB_URI || 'mongodb://localhost/my-app';
+const MONGOURL = process.env.MONGODB_URI || 'mongodb://localhost/valApp';
 
 mongoose.connect(MONGOURL, err => {
 	console.log(err || `Connected to MongoDB at ${MONGOURL}`)

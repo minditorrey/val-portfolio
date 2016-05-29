@@ -1,0 +1,51 @@
+body {
+	margin-top: 2%;
+}
+
+.navRow {
+	margin-right: 5%;
+}
+
+.menuTabs {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #5b5a5a;
+	font-size: 24px;
+	float: right;
+	margin-left: 5%;
+
+}
+
+h2, h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #5b5a5a;
+}
+
+.category {
+	text-align: center;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.aboutVal {
+	text-align: center;
+	color: #5b5a5a;
+}
+.coverphoto {
+	width: 104%;
+	height: 400px;
+	margin-left: -2%;
+	margin-right: -2%;
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin-top: 8%;
+}
+

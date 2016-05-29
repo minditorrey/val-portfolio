@@ -25,6 +25,12 @@ app.config(function($stateProvider, $urlRouterProvider) {
 			templateUrl: '/templates/details.html',
 			controller: 'workController'
 		})
+		.state('about', {
+			url: '/about',
+			templateUrl: '/templates/about.html',
+			controller: 'aboutController'
+		})
+
 
 
 
